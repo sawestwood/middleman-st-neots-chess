@@ -72,6 +72,12 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+# For news/blog-like entries
+activate :blog do |blog|
+  blog.prefix = "news"
+  blog.permalink = "/{year}/{month}/{day}/{title}.html"
+end
+
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = 'gh-pages'
