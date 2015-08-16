@@ -1,6 +1,6 @@
 ---
 title: County Rapidplay Details
-date: 2015-08-16 23:59 UTC
+date: 2015-08-15 23:59 UTC
 tags:
 ---
 
