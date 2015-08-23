@@ -20,11 +20,10 @@ title: St Neots Chess Club
 	        		<div class="col-lg-6">
 			      		<article>
 			    			<h3>
-			    				<%= article.title %>
-						      	<time><%= article.date.strftime('%B %e, %Y') %></time>
+			    				<%= article.title %> - <time><%= article.date.strftime('%B %e, %Y') %></time>
 						    </h3>
 
-			    			<%= article.summary %>
+			    			<%= article.summary(1000, ">>") %>
 
 			  			</article>
 			    	</div>
