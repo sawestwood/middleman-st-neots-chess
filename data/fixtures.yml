@@ -1,0 +1,121 @@
+fixtures:
+- when: Monday, 19th September 2016
+  competition: Division 1
+  against: Cambridge
+  venue: Home
+- when: Wednesday, 28th September 2016
+  competition: U550
+  against: Warboys
+  venue: Away
+- when: Wednesday, 5th October 2016
+  competition: Division 1
+  against: Warboys
+  venue: Away
+- when: Wednesday, 12th October 2016
+  competition: Fenland Cup
+  against: New England
+  venue: Away
+- when: Monday, 17th October 2016
+  competition: U550
+  against: New England
+  venue: Home
+- when: Tuesday, 25th October 2016
+  competition: Division 2
+  against: Spalding
+  venue: Away
+- when: Thursday, 3rd November 2016
+  competition: Divsion 1
+  against: Peterborough
+  venue: Away
+- when: Wednesday, 9th November 2016
+  competition: Division 2
+  against: Warboys
+  venue: Away
+- when: Monday, 14th November 2016
+  competition: U550
+  against: Royston
+  venue: Home
+- when: Monday, 21st November 2016
+  competition: Division 2
+  against: Warboys
+  venue: Home
+- when: Wednesday, 30th November 2016
+  competition: U550
+  against: Cambridge
+  venue: Away
+- when: Monday, 5th December 2016
+  competition: Division 1
+  against: Royston
+  venue: Home
+- when: Monday, 12th December 2016
+  competition: Division 1
+  against: Peterborough
+  venue: Home
+- when: Wednesday, 4th January 2017
+  competition: Division 1
+  against: New England
+  venue: Away
+- when: Monday, 9th January 2017
+  competition: Division 2
+  against: New England
+  venue: Home
+- when: Monday, 16th January 2017
+  competition: U550
+  against: Warboys
+  venue: Home
+- when: Monday, 23rd January 2017
+  competition: U550
+  against: Cambridge
+  venue: Home
+- when: Monday, 30th January 2017
+  competition: Division 1
+  against: Warboys
+  venue: Home
+- when: Wednesday, 8th February 2017
+  competition: Division 1
+  against: Cambridge
+  venue: Away
+- when: Monday, 13th February 2017
+  competition: Division 2
+  against: Spalding
+  venue: Home
+- when: Monday, 20th February 2017
+  competition: Division 1
+  against: Peterborough
+  venue: Home
+- when: Monday, 27th February 2017
+  competition: Division 2
+  against: Warboys
+  venue: Home
+- when: Monday, 6th March 2017
+  competition: U550
+  against: Royston
+  venue: Away
+- when: Wednesday, 15th March 2017
+  competition: Division 2
+  against: Warboys
+  venue: Away
+- when: Monday, 20th March 2017
+  competition: U550
+  against: Cambridge
+  venue: Home
+- when: Monday, 27th March 2017
+  competition: Division 1
+  against: New England
+  venue: Home
+- when: Thursday, 6th April 2017
+  competition: Division 1
+  against: Peterborough
+  venue: Away
+- when: Monday, 10th April 2017
+  competition: Division 1
+  against: Royston
+  venue: Away
+- when: Wednesday, 19th April 2017
+  competition: U550
+  against: Cambridge
+  venue: Away
+- when: Wednesday, 26th April 2017
+  competition: Division 2
+  against: New England
+  venue: Away

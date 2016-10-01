@@ -5,7 +5,7 @@ title: Fixtures
 <div class="container">
 	<div class="row">
 		<div class="col-md-8">
-			<h2>Club Fixtures for 2015-16 Season</h2>
+			<h2>Club Fixtures for 2016-17 Season</h2>
 			<table class="table table-striped table-hover ">
 				<thead>
 					<tr>
@@ -16,120 +16,14 @@ title: Fixtures
 					</tr>
 				</thead>
 				<tbody>
+				<% data.fixtures.fixtures.each do |fixture| %>
 					<tr>
-						<td>14th Sept. 2015</td>
-						<td>County Chess League Division 1</td>
-						<td>Peterborough B</td>
-						<td>Home</td>
+						<td><%= fixture.when %></td>
+						<td><%= fixture.competition %></td>
+						<td><%= fixture.against %></td>
+						<td><%= fixture.venue %></td>
 					</tr>
-					<tr>
-						<td>21st Sept. 2015</td>
-						<td>County Chess U550</td>
-						<td>Cambridge</td>
-						<td>Home</td>
-					</tr>
-					<tr>
-						<td>28th Sept. 2015</td>
-						<td>County Chess League Division 1</td>
-						<td>Cambridge</td>
-						<td>Home</td>
-					</tr>
-					<tr>
-						<td>19th Oct. 2015</td>
-						<td>County Chess League Division 1</td>
-						<td>Royston</td>
-						<td>Away</td>
-					</tr>
-					<tr>
-						<td>2nd Nov. 2015</td>
-						<td>Fenland Cup</td>
-						<td>New England</td>
-						<td>Home</td>
-					</tr>
-					<tr>
-						<td>18th Nov. 2015</td>
-						<td>County Chess League Division 1</td>
-						<td>New England</td>
-						<td>Away</td>
-					</tr>
-					<tr>
-						<td>23rd Nov. 2015</td>
-						<td>County Chess U550</td>
-						<td>Warboys</td>
-						<td>Home</td>
-					</tr>
-					<tr>
-						<td>30th Nov. 2015</td>
-						<td>County Chess League Division 1</td>
-						<td>Peterborough A</td>
-						<td>Home</td>
-					</tr>
-					<tr>
-						<td>9th Dec. 2015</td>
-						<td>County Chess League Division 1</td>
-						<td>Warboys</td>
-						<td>Away</td>
-					</tr>
-					<tr>
-						<td>11th Jan. 2016</td>
-						<td>County Chess League Division 1</td>
-						<td>Royston</td>
-						<td>Home</td>
-					</tr>
-					<tr>
-						<td>18th Jan. 2016</td>
-						<td>County Chess U550</td>
-						<td>Royston</td>
-						<td>Home</td>
-					</tr>
-					<tr>
-						<td>28th Jan. 2016</td>
-						<td>County Chess League Division 1</td>
-						<td>Peterborough B</td>
-						<td>Away</td>
-					</tr>
-					<tr>
-						<td>10th Feb. 2016</td>
-						<td>County Chess U550</td>
-						<td>Cambridge</td>
-						<td>Away</td>
-					</tr>
-					<tr>
-						<td>15th Feb. 2016</td>
-						<td>County Chess League Division 1</td>
-						<td>New England</td>
-						<td>Home</td>
-					</tr>
-					<tr>
-						<td>9th Mar. 2016</td>
-						<td>County Chess League Division 1</td>
-						<td>Cambridge</td>
-						<td>Away</td>
-					</tr>
-					<tr>
-						<td>14th Mar. 2016</td>
-						<td>County Chess U550</td>
-						<td>Royston</td>
-						<td>Away</td>
-					</tr>
-					<tr>
-						<td>6th Apr. 2016</td>
-						<td>County Chess U550</td>
-						<td>Warboys</td>
-						<td>Away</td>
-					</tr>
-					<tr>
-						<td>14th Apr. 2016</td>
-						<td>County Chess League Division 1</td>
-						<td>Peterborough A</td>
-						<td>Away</td>
-					</tr>
-					<tr>
-						<td>18th Apr. 2016</td>
-						<td>County Chess League Division 1</td>
-						<td>Warboys</td>
-						<td>Home</td>
-					</tr>
+				<% end %>
 				</tbody>
 			</table>
 		</div>
@@ -138,5 +32,3 @@ title: Fixtures
 		</div>
 	</div>
 </div>
-
-
